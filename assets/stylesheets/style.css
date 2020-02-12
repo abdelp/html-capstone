@@ -1,3 +1,12 @@
+.text-gray {
+    color: #888888;
+}
+
+.hover-white:hover {
+    color: white;
+    text-decoration: none;
+}
+
 .header {
     /* background-color: #191919; */
     padding: 0 200px;
@@ -12,3 +21,9 @@
     max-width: 1310px;
     margin: 0 auto;
 }
+
+.right-btns .nav-item img {
+    height: 35px;
+    border-radius: 50%;
+}
+
