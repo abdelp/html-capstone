@@ -52,14 +52,13 @@
     </header>
 
     <section class="search-productos d-flex flex-column align-items-center bg-danger pt-5">
-      <h3 class="text-uppercase">abdelshop</h3>
-      <p class="text-white">find the best productos</p>
-
+      <h1 class="text-uppercase text-white">abdelshop</h1>
+      <p class="text-white">Find the best productos</p>
       <div class="search">
-        <form class="d-flex">
+        <form class="d-flex search-form">
           <div class="form-group">
             <div class="dropdown">
-              <button class="btn btn-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <button class="btn btn-light dropdown-toggle text-gray" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 All categories
               </button>
               <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
@@ -70,11 +69,11 @@
             </div>
           </div>
           <div class="form-group">
-            <input type="text" class="form-control" id="product-text" aria-describedby="producto-search" placeholder="What do you search for?">
+            <input type="text" class="form-control bg-light text-gray" id="product-text" aria-describedby="producto-search" placeholder="What do you search for?">
           </div>
           <div class="form-group d-flex">
-            <input type="text" class="form-control" id="location" aria-describedby="location" placeholder="Location">        
-            <button type="submit" class="submit btn btn-primary">search</button>
+            <input type="text" class="form-control bg-light text-gray mr-3" id="location-input" aria-describedby="location" placeholder="Location">        
+            <button type="submit" class="submit btn btn-dark">Search</button>
           </div>
         </form>
       </div>

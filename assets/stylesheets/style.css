@@ -16,6 +16,11 @@
     padding-right: 10px;
 }
 
+.search-form > .form-group:nth-child(2) {
+    margin: 0 1px;
+    flex: 2;
+}
+
 .hot-ads,
 .product-categories > div {
     max-width: 1310px;
