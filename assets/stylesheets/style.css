@@ -7,7 +7,8 @@
     padding-right: 10px;
 }
 
-.hot-ads {
+.hot-ads,
+.product-categories > div {
     max-width: 1310px;
     margin: 0 auto;
 }
