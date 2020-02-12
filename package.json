@@ -1,0 +1,19 @@
+{
+  "name": "html-structure",
+  "version": "1.0.0",
+  "description": "",
+  "main": "stylelint.config.js",
+  "dependencies": {
+    "gulp": "^4.0.2",
+    "stylelint": "^13.0.0",
+    "stylelint-config-recommended": "^3.0.0"
+  },
+  "devDependencies": {
+    "gulp-autoprefixer": "^7.0.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Abdel Pérez",
+  "license": "ISC"
+}

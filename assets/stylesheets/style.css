@@ -1,0 +1,13 @@
+.header {
+    /* background-color: #191919; */
+    padding: 0 200px;
+}
+
+.nav .nav-item {
+    padding-right: 10px;
+}
+
+.hot-ads {
+    max-width: 1310px;
+    margin: 0 auto;
+}
