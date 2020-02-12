@@ -1,34 +1,64 @@
 .text-gray {
-    color: #888888;
+  color: #888;
 }
 
 .hover-white:hover {
-    color: white;
-    text-decoration: none;
+  color: white;
+  text-decoration: none;
 }
 
 .header {
-    /* background-color: #191919; */
-    padding: 0 200px;
+  padding: 0 200px;
 }
 
 .nav .nav-item {
-    padding-right: 10px;
+  padding-right: 10px;
 }
 
 .search-form > .form-group:nth-child(2) {
-    margin: 0 1px;
-    flex: 2;
+  margin: 0 1px;
+  flex: 2;
 }
 
 .hot-ads,
 .product-categories > div {
-    max-width: 1310px;
-    margin: 0 auto;
+  max-width: 1310px;
+  margin: 0 auto;
+}
+
+.hot-ads > .carousel .carousel-control-prev,
+.hot-ads > .carousel .carousel-control-next {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  border: 1px solid #888;
+  top: 50%;
+}
+
+.hot-ads > .carousel .carousel-control-prev {
+  left: -35px;
+}
+
+.hot-ads > .carousel .carousel-control-next {
+  right: -35px;
+}
+
+.hot-ads > .carousel .carousel-control-prev > span,
+.hot-ads > .carousel .carousel-control-next > span {
+    height: auto;
+}
+
+.hot-ads .product-img {
+    position: relative;
+}
+
+.hot-ads .product-img > div {
+    position: absolute;
+    bottom: 0;
+    right: 0;
 }
 
 .right-btns .nav-item img {
-    height: 35px;
-    border-radius: 50%;
+  height: 35px;
+  border-radius: 50%;
 }
-

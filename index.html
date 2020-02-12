@@ -79,23 +79,52 @@
       </div>
     </section>
 
-    <section class="hot-ads">
-      <h2 class="text-uppercase text-light">hot ads</h2>
+    <section class="hot-ads pt-3 pb-5">
+      <h2 class="text-uppercase text-gray h4">hot ads</h2>
 
       <div class="carousel" data-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
             <div class="container-fluid">
               <div class="row">
-                <div class="col-md-4 bg-danger">
-      
+                <div class="col-md-4 bg-success product-img">
+                  <div>
+                    <a href="#" class="btn btn-dark text-danger"><i class="fas fa-chevron-left"></i></a>
+                    <a href="#" class="btn btn-dark text-danger"><i class="fas fa-chevron-right"></i></a>
+                  </div>
+                </div>
+                <div class="col-md-8">
+                  <h3 class="text-danger">Some Especial Product</h3>
+                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                  <p>By: Abdel Pérez</p>
+                  <p>Location: Paraguay</p>
+                  <div class="btn-group" role="group" aria-label="Basic example">
+                    <button type="button" class="btn btn-danger">$5</button>
+                    <button type="button" class="btn btn-danger">
+                      <i class="fas fa-shopping-cart"></i>
+                      Purchase details</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- <div class="carousel-item">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-md-4 bg-success product-img">
+                  <div>
+                    <a href="#" class="btn"><i class="fas fa-chevron-left"></i></a>
+                    <a href="#" class="btn"><i class="fas fa-chevron-right"></i></a>
+                  </div>
                 </div>
                 <div class="col-md-8">
                   <h3>comida para gatos 1</h3>
                   <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
                   <div class="btn-group" role="group" aria-label="Basic example">
                     <button type="button" class="btn btn-danger">$5</button>
-                    <button type="button" class="btn btn-danger">purchase details</button>
+                    <button type="button" class="btn btn-danger">
+                      <i class="fas fa-shopping-cart"></i>
+                      Purchase details</button>
                   </div>
                 </div>
               </div>
@@ -104,54 +133,47 @@
           <div class="carousel-item">
             <div class="container-fluid">
               <div class="row">
-                <div class="col-md-4">
-      
+                <div class="col-md-4 bg-warning product-img">
+                  <div>
+                    <a href="#" class="btn"><i class="fas fa-chevron-left"></i></a>
+                    <a href="#" class="btn"><i class="fas fa-chevron-right"></i></a>
+                  </div>
                 </div>
                 <div class="col-md-8">
-                  <h3>comida para gatos 1</h3>
+                  <h3>Some Special Product</h3>
                   <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
                   <div class="btn-group" role="group" aria-label="Basic example">
                     <button type="button" class="btn btn-danger">$5</button>
-                    <button type="button" class="btn btn-danger">purchase details</button>
+                    <button type="button" class="btn btn-danger">
+                      <i class="fas fa-shopping-cart"></i>
+                      Purchase details</button>
                   </div>
                 </div>
               </div>
             </div>
-          </div>
-          <div class="carousel-item">
-            <div class="container-fluid">
-              <div class="row">
-                <div class="col-md-4">
-
-                </div>
-                <div class="col-md-8">
-                  <h3>comida para gatos 1</h3>
-                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-                  <div class="btn-group" role="group" aria-label="Basic example">
-                    <button type="button" class="btn btn-danger">$5</button>
-                    <button type="button" class="btn btn-danger">purchase details</button>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+          </div> -->
         </div>
-        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <a class="carousel-control-prev text-danger" href="#carouselExampleControls" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon text-danger" aria-hidden="true">
+            <i class="fas fa-chevron-left"></i>
+          </span>
           <span class="sr-only">Previous</span>
-
         </a>
         <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="carousel-control-next-icon text-danger" aria-hidden="true">
+            <i class="fas fa-chevron-right"></i>
+          </span>
           <span class="sr-only">Next</span>
         </a>
       </div>
     </section>
 
-    <section class="product-categories border-top border-bottom bg-light">
+    <section class="product-categories border-top border-bottom bg-light p-3">
       <div>
         <div class="catgory1">
-          <h3 class="border-bottom">electronics</h3>
+          <h5 class="border-bottom text-gray">
+            <i class="fas fa-cat"></i>
+            Cats (All ages)</h5>
           <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
@@ -250,7 +272,9 @@
           </div>
         </div>
         <div class="catgory2">
-          <h3 class="border-bottom">electronics</h3>
+          <h5 class="border-bottom text-gray">
+            <i class="fas fa-dog"></i>
+            Dogs (All ages)</h5>
           <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
