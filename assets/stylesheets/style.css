@@ -28,7 +28,9 @@
 }
 
 .hot-ads,
-#product-categories > div {
+#product-categories > div,
+.bottom-footer,
+.top-footer {
   max-width: 1310px;
   margin: 0 auto;
 }
