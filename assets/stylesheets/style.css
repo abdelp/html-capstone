@@ -7,8 +7,9 @@
   text-decoration: none;
 }
 
-.header {
-  padding: 0 200px;
+.header > nav {
+  max-width: 1310px;
+  width: 1310px;
 }
 
 .nav .nav-item {
