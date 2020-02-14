@@ -106,6 +106,8 @@
 
 .hot-ads .product-img img {
   max-width: 100%;
+  width: 100%;
+  max-height: 280px;
 }
 
 .hot-ads,

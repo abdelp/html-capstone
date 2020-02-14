@@ -82,17 +82,18 @@
 
       <section class="hot-ads pt-3 pb-5 px-2">
         <h2 class="text-uppercase text-gray h4">hot ads</h2>
-        <div class="carousel" data-ride="carousel">
+
+        <div id="carousel-hot-ads" class="carousel slide mt-4" data-interval="false">
           <div class="carousel-inner">
             <div class="carousel-item active">
               <div class="container-fluid">
                 <div class="row">
                   <div class="col-md-6 col-lg-4 product-img p-0">
                     <img src="assets/images/special-food.jpg" alt="special-food">
-                    <!--<div>
+                    <div>
                       <a href="#" class="btn btn-dark text-cabaret"><i class="fas fa-chevron-left"></i></a>
                       <a href="#" class="btn btn-dark text-cabaret"><i class="fas fa-chevron-right"></i></a>
-                    </div> -->
+                    </div>
                   </div>
                   <div class="col-md-6 col-lg-8 mt-2">
                     <h3 class="text-cabaret">Some Especial Product</h3>
@@ -109,21 +110,24 @@
                 </div>
               </div>
             </div>
-            <!-- <div class="carousel-item">
+            <div class="carousel-item">
               <div class="container-fluid">
                 <div class="row">
-                  <div class="col-md-4 bg-success product-img">
+                  <div class="col-md-6 col-lg-4 product-img p-0">
+                    <img src="assets/images/special-food.jpg" alt="special-food">
                     <div>
-                      <a href="#" class="btn"><i class="fas fa-chevron-left"></i></a>
-                      <a href="#" class="btn"><i class="fas fa-chevron-right"></i></a>
+                      <a href="#" class="btn btn-dark text-cabaret"><i class="fas fa-chevron-left"></i></a>
+                      <a href="#" class="btn btn-dark text-cabaret"><i class="fas fa-chevron-right"></i></a>
                     </div>
                   </div>
-                  <div class="col-md-8">
-                    <h3>comida para gatos 1</h3>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                  <div class="col-md-6 col-lg-8 mt-2">
+                    <h3 class="text-cabaret">Some Especial Product</h3>
+                    <p class="text-gray font-weight-600">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                    <p class="text-secondary"><span class="text-gray font-weight-600">By:</span> Abdel Pérez</p>
+                    <p class="text-secondary"><span class="text-gray font-weight-600">Location:</span> Paraguay</p>
                     <div class="btn-group" role="group" aria-label="Basic example">
-                      <button type="button" class="btn btn-danger">$5</button>
-                      <button type="button" class="btn btn-danger">
+                      <button type="button" class="btn btn-cabaret border-right-dark">$5</button>
+                      <button type="button" class="btn btn-cabaret">
                         <i class="fas fa-shopping-cart"></i>
                         Purchase details</button>
                     </div>
@@ -131,38 +135,16 @@
                 </div>
               </div>
             </div>
-            <div class="carousel-item">
-              <div class="container-fluid">
-                <div class="row">
-                  <div class="col-md-4 bg-warning product-img">
-                    <div>
-                      <a href="#" class="btn"><i class="fas fa-chevron-left"></i></a>
-                      <a href="#" class="btn"><i class="fas fa-chevron-right"></i></a>
-                    </div>
-                  </div>
-                  <div class="col-md-8">
-                    <h3>Some Special Product</h3>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-                    <div class="btn-group" role="group" aria-label="Basic example">
-                      <button type="button" class="btn btn-danger">$5</button>
-                      <button type="button" class="btn btn-danger">
-                        <i class="fas fa-shopping-cart"></i>
-                        Purchase details</button>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div> -->
           </div>
-          <a class="carousel-control-prev text-cabaret" href="#carouselExampleControls" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon text-cabaret" aria-hidden="true">
-              <i class="fas fa-chevron-left"></i>
+          <a class="carousel-control-prev" href="#carousel-hot-ads" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true">
+              <i class="fas fa-chevron-left text-dark"></i>
             </span>
             <span class="sr-only">Previous</span>
           </a>
-          <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-            <span class="carousel-control-next-icon text-cabaret" aria-hidden="true">
-              <i class="fas fa-chevron-right"></i>
+          <a class="carousel-control-next" href="#carousel-hot-ads" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true">
+              <i class="fas fa-chevron-right text-dark"></i>
             </span>
             <span class="sr-only">Next</span>
           </a>
@@ -430,7 +412,7 @@
                 <div class="carousel-item active">
                   <div class="d-flex justify-content-between">
                     <div class="card mr-0 mr-sm-5">
-                      <img class="card-img-top" src="assets/images/cat-1.jpg" alt="Card image cap">
+                      <img class="card-img-top" src="assets/images/fish-1.jpg" alt="Card image cap">
                       <div class="card-body">
                         <h5 class="card-title text-gray">Card title</h5>
                         <h6 class="card-title text-cabaret">New</h6>
@@ -442,7 +424,7 @@
                       </div>
                     </div>
                     <div class="card d-none d-sm-flex">
-                      <img class="card-img-top" src="assets/images/cat-2.jpg" alt="Card image cap">
+                      <img class="card-img-top" src="assets/images/fish-1.jpg" alt="Card image cap">
                       <div class="card-body">
                         <h5 class="card-title text-gray">Card title</h5>
                         <h6 class="card-title text-cabaret">New</h6>
@@ -454,7 +436,7 @@
                       </div>
                     </div>
                     <div class="card d-none d-lg-flex ml-5">
-                      <img class="card-img-top" src="assets/images/cat-3.jpg" alt="Card image cap">
+                      <img class="card-img-top" src="assets/images/fish-1.jpg" alt="Card image cap">
                       <div class="card-body">
                         <h5 class="card-title text-gray">Card title</h5>
                         <h6 class="card-title text-cabaret">New</h6>
@@ -466,7 +448,7 @@
                       </div>
                     </div>
                     <div class="card d-none d-lg-flex ml-5">
-                      <img class="card-img-top" src="assets/images/cat-3.jpg" alt="Card image cap">
+                      <img class="card-img-top" src="assets/images/fish-1.jpg" alt="Card image cap">
                       <div class="card-body">
                         <h5 class="card-title text-gray">Card title</h5>
                         <h6 class="card-title text-cabaret">New</h6>

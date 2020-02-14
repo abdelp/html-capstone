@@ -102,8 +102,11 @@
   align-items: center;
 }
 
-.result .product-img {
-  min-height: 200px;
+.result .product-img img {
+  max-width: 100%;
+  width: 100%;
+  max-height: 280px;
+  height: 100%;
 }
 
 .result .product-img > div {
