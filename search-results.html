@@ -8,7 +8,7 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="assets/stylesheets/style.css">
+    <link rel="stylesheet" type="text/css" href="assets/stylesheets/search-results.css">
     <script src="https://kit.fontawesome.com/7692afb188.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://kit-free.fontawesome.com/releases/latest/css/free.min.css" media="all">
     <title>Debari Shop</title>
@@ -49,7 +49,6 @@
         </div> 
       </nav>
     </header>
-
     <main class="main">
       <section class="search-productos d-flex flex-column align-items-center bg-danger pt-5 px-2">
         <h1 class="text-uppercase text-white">debari shop</h1>
@@ -79,91 +78,182 @@
         </div>
       </section>
 
-      <section id="results" class="pt-3 pb-5 px-2 bg-gray">
+      <section id="results" class="pt-3 pb-5 px-2 bg-light border">
         <div class="container-fluid">
-          <div class="parameters">
-            <form>
-              <div class="form-check form-check-inline">
-                <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
-                <label class="form-check-label" for="inlineCheckbox1">New</label>
-              </div>
-              <div class="form-check form-check-inline">
-                <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
-                <label class="form-check-label" for="inlineCheckbox2">Used</label>
-              </div>
+          <div class="row">
+            <div class="parameters col-2">
+              <form>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                  <label class="form-check-label" for="inlineCheckbox1">New</label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                  <label class="form-check-label" for="inlineCheckbox2">Used</label>
+                </div>
 
-              <!-- separador -->
-              <div class="form-group">
-                <h6 class="border-bottom">Type</h6>
-                <div class="form-check">
-                  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-                  <label class="form-check-label" for="defaultCheck1">
-                    Default checkbox
-                  </label>
+                <!-- separador -->
+                <div class="form-group">
+                  <h6 class="border-bottom">Type</h6>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                    <label class="form-check-label" for="defaultCheck1">
+                      Default checkbox
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
+                    <label class="form-check-label" for="defaultCheck2">
+                      Disabled checkbox
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
+                    <label class="form-check-label" for="defaultCheck2">
+                      Disabled checkbox
+                    </label>
+                  </div>
                 </div>
-                <div class="form-check">
-                  <input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
-                  <label class="form-check-label" for="defaultCheck2">
-                    Disabled checkbox
-                  </label>
-                </div>
-                </div>
-                <div class="form-check">
-                  <input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
-                  <label class="form-check-label" for="defaultCheck2">
-                    Disabled checkbox
-                  </label>
-                </div>
-              </div>
 
-              <div class="form-group">
-                <h6 class="border-bottom">Size</h6>
-                <div class="form-check">
-                  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-                  <label class="form-check-label" for="defaultCheck1">
-                    Default checkbox
-                  </label>
+                <div class="form-group">
+                  <h6 class="border-bottom">Size</h6>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                    <label class="form-check-label" for="defaultCheck1">
+                      Default checkbox
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
+                    <label class="form-check-label" for="defaultCheck2">
+                      Disabled checkbox
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
+                    <label class="form-check-label" for="defaultCheck2">
+                      Disabled checkbox
+                    </label>
+                  </div>
                 </div>
-                <div class="form-check">
-                  <input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
-                  <label class="form-check-label" for="defaultCheck2">
-                    Disabled checkbox
-                  </label>
-                </div>
-                <div class="form-check">
-                  <input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
-                  <label class="form-check-label" for="defaultCheck2">
-                    Disabled checkbox
-                  </label>
-                </div>
-              </div>
 
-              <div class="form-group">
-                <h6 class="border-bottom">Price range</h6>
-                <div class="form-check">
-                  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-                  <label class="form-check-label" for="defaultCheck1">
-                    Default checkbox
-                  </label>
+                <div class="form-group">
+                  <h6 class="border-bottom">Price range</h6>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                    <label class="form-check-label" for="defaultCheck1">
+                      Default checkbox
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
+                    <label class="form-check-label" for="defaultCheck2">
+                      Disabled checkbox
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
+                    <label class="form-check-label" for="defaultCheck2">
+                      Disabled checkbox
+                    </label>
+                  </div>
                 </div>
-                <div class="form-check">
-                  <input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
-                  <label class="form-check-label" for="defaultCheck2">
-                    Disabled checkbox
-                  </label>
-                </div>
-                <div class="form-check">
-                  <input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
-                  <label class="form-check-label" for="defaultCheck2">
-                    Disabled checkbox
-                  </label>
+              </form>
+            </div>
+
+            <div class="result col-10">
+              <div class="row">
+                <p>138 results of "Flat" Search at San Francisco in Category Real State</p>
+              </div>
+              <div class="row p-2 border-top border-bottom">
+                <div class="col-12">
+                  <div class="row">
+                    <div class="col-md-3 bg-success product-img">
+                      <div>
+                        <!-- <img src="assets/images/special-food.jpg" alt="special-food"> -->
+                        <a href="#" class="btn btn-dark text-danger"><i class="fas fa-chevron-left"></i></a>
+                        <a href="#" class="btn btn-dark text-danger"><i class="fas fa-chevron-right"></i></a>
+                      </div>
+                    </div>
+                    <div class="col-md-9">
+                      <div class="title-container">
+                        <h5 class="text-gray">Some Especial Product</h5>
+                        <a href="#" class="btn btn-outline-dark">+</a>
+                      </div>
+                      <h6 class="text-danger">Brand #1</h6>
+                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                      <p>Location: 21 Start Street, San Francisco US</p>
+
+                      <div class="product-footer">
+                        <div>
+                          <p>14 Feb. 2019</p>
+                        </div>
+
+                        <button type="button" class="btn btn-danger">$150</button>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
-            </form>
+              <div class="row p-2 border-top border-bottom">
+                <div class="col-12">
+                  <div class="row border-top border-bottom py-3 bg-white">
+                    <div class="col-md-3 bg-success product-img">
+                      <div>
+                        <!-- <img src="assets/images/special-food.jpg" alt="special-food"> -->
+                        <a href="#" class="btn btn-dark text-danger"><i class="fas fa-chevron-left"></i></a>
+                        <a href="#" class="btn btn-dark text-danger"><i class="fas fa-chevron-right"></i></a>
+                      </div>
+                    </div>
+                    <div class="col-md-9">
+                      <div class="title-container">
+                        <h5 class="text-gray">Some Especial Product</h5>
+                        <a href="#" class="btn btn-outline-dark">+</a>
+                      </div>
+                      <h6 class="text-danger">Brand #1</h6>
+                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                      <p>Location: 21 Start Street, San Francisco US</p>
+
+                      <div class="product-footer">
+                        <div>
+                          <p>14 Feb. 2019</p>
+                        </div>
+                        
+                        <div class="btns-container">
+                          <button type="button" class="btn btn-danger">Give a Call</button>
+                          <button type="button" class="btn btn-danger">$150</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row justify-content-center">
+                <nav aria-label="Page navigation example">
+                  <ul class="pagination justify-content-end">
+                    <li class="page-item disabled">
+                      <a class="page-link text-gray" href="#" tabindex="-1">Previous</a>
+                    </li>
+                    <li class="page-item"><a class="page-link bg-danger text-white" href="#">1</a></li>
+                    <li class="page-item"><a class="page-link text-gray" href="#">2</a></li>
+                    <li class="page-item"><a class="page-link text-gray" href="#">3</a></li>
+                    <li class="page-item"><a class="page-link text-gray" href="#">4</a></li>
+                    <li class="page-item"><a class="page-link text-gray" href="#">5</a></li>
+                    <li class="page-item"><a class="page-link text-gray" href="#">6</a></li>
+                    <li class="page-item"><a class="page-link text-gray" href="#">7</a></li>
+                    <li class="page-item">
+                      <a class="page-link text-gray" href="#">Next</a>
+                    </li>
+                  </ul>
+                </nav>
+              </div>
+            </div>
           </div>
         </div>
       </section>
+
     </main>
+
     <footer class="footer p-3">
       <div class="top-footer container-fluid border-bottom pb-2">
         <div class="row">
