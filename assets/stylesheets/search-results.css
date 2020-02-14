@@ -2,9 +2,35 @@
   color: #888;
 }
 
+.text-dark {
+  color: #383838;
+}
+
 .hover-white:hover {
   color: white;
   text-decoration: none;
+}
+
+.font-weight-600 {
+  font-weight: 600;
+}
+
+.text-cabaret {
+  color: #d35266;
+}
+
+.bg-cabaret {
+  background-color: #d35266;
+}
+
+.btn-cabaret {
+  color: #fff;
+  background-color: #d35266;
+}
+
+.btn-cabaret:hover {
+  color: #fff;
+  background-color: rgb(199, 32, 57);
 }
 
 .header {
@@ -41,6 +67,18 @@
   }
 }
 
+.search {
+  max-width: 750px;
+}
+
+.search .form-group {
+  margin-bottom: 0;
+}
+
+.search .form-group:last-child {
+  margin-bottom: 1rem;
+}
+
 @media (max-width: 768px) {
   .search {
     width: 100%;
@@ -62,6 +100,10 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.result .product-img {
+  min-height: 200px;
 }
 
 .result .product-img > div {
