@@ -50,6 +50,12 @@
 
 .nav .nav-item {
   padding-right: 10px;
+  font-family: 'Gotham Rounded Light';
+}
+
+.header .nav:first-child .nav-item:first-child {
+  font-family: 'Helvetica Neue Medium', Arial, Helvetica, sans-serif;
+  font-size: 1.3rem;
 }
 
 @media (max-width: 815px) {
