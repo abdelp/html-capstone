@@ -15,10 +15,6 @@
   text-decoration: none;
 }
 
-.font-weight-600 {
-  font-weight: 600;
-}
-
 .text-cabaret {
   color: #d35266;
 }
@@ -37,6 +33,18 @@
   background-color: rgb(199, 32, 57);
 }
 
+.font-hlvtic-md {
+  font-family: "HelveticaNeue-Medium", Arial, Helvetica, sans-serif;
+}
+
+.font-hlvtic-lt {
+  font-family: "HelveticaNeue-Light", Arial, Helvetica, sans-serif;
+}
+
+.font-gotham-lt {
+  font-family: gothamrounded-light, Arial, Helvetica, sans-serif;
+}
+
 .header {
   position: fixed;
   z-index: 2;
@@ -48,13 +56,13 @@
   width: 1310px;
 }
 
-.nav .nav-item {
+.header .nav .nav-item {
   padding-right: 10px;
-  font-family: 'Gotham Rounded Light';
+  font-family: 'gothamrounded-light', Arial, Helvetica, sans-serif;
 }
 
 .header .nav:first-child .nav-item:first-child {
-  font-family: 'Helvetica Neue Medium', Arial, Helvetica, sans-serif;
+  font-family: 'HelveticaNeue-Medium', Arial, Helvetica, sans-serif;
   font-size: 1.3rem;
 }
 
@@ -62,6 +70,15 @@
   #post-add {
     display: none;
   }
+}
+
+.search-products .title,
+.search-products > p {
+  font-family: 'HelveticaNeue-Medium', Arial, Helvetica, sans-serif;
+}
+
+.search-btn {
+  font-family: 'gothamrounded-light', Arial, Helvetica, sans-serif;
 }
 
 .main,
@@ -100,8 +117,9 @@
   flex: 2;
 }
 
-.hot-ads > .h4 {
+.hot-ads > .h5 {
   margin-left: 35px;
+  font-family: 'HelveticaNeue-Medium', Arial, Helvetica, sans-serif;
 }
 
 .hot-ads .product-img > div {
@@ -156,6 +174,10 @@
   margin-right: -35px;
 }
 
+.hot-ads .hot-ad-detail {
+  font-family: 'HelveticaNeue-Medium', Arial, Helvetica, sans-serif;
+}
+
 .product-img {
   min-height: 200px;
 }
@@ -201,8 +223,28 @@
   }
 }
 
-/* @media (min-width: 769px) {
-  .card {
-    width: 24rem;
-  }
-} */
+.category > h5 {
+  font-family: 'HelveticaNeue-Medium', Arial, Helvetica, sans-serif;
+  color: #383838;
+}
+
+#product-categories .category > h5 > span {
+  font-family: 'HelveticaNeue-Light', Arial, Helvetica, sans-serif;
+}
+
+#product-categories .category .card-title {
+  color: #383838;
+}
+
+#product-categories .category .card-body > .prod-stat {
+  font-family: 'HelveticaNeue-Medium', Arial, Helvetica, sans-serif;
+}
+
+#product-categories .category .card-text > span {
+  font-family: gothamrounded-light, Arial, Helvetica, sans-serif;
+  color: #383838;
+}
+
+.footer {
+  font-family: "HelveticaNeue-Medium", Arial, Helvetica, sans-serif;
+}
