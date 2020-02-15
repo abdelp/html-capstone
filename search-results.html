@@ -9,24 +9,25 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="assets/stylesheets/search-results.css">
+    <link rel="stylesheet" type="text/css" href="assets/stylesheets/fonts.css">
     <script src="https://kit.fontawesome.com/7692afb188.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://kit-free.fontawesome.com/releases/latest/css/free.min.css" media="all">
     <title>Debari Shop</title>
   </head>
   <body>
-    <header class="header bg-dark d-flex justify-content-center py-3 pl-3">
+    <header class="header bg-shaft d-flex justify-content-center py-3 pl-3">
       <nav class="d-flex align-items-center justify-content-between">
         <ul class="nav align-items-center">
           <li class="nav-item pr-5 text-uppercase text-white">debari shop</li>
           <li class="nav-item"><a href="#" class="text-uppercase text-gray hover-white">
-            <i class="fas fa-home" aria-hidden="true"></i> 
-            <span class="d-none d-sm-inline">home</span></a></li>
+            <i class="fas fa-home" aria-hidden="true"></i>
+            <span class="d-none d-md-inline">home</span></a></li>
           <li class="nav-item"><a href="#" class="text-uppercase text-gray hover-white">
             <i class="fas fa-th-large" aria-hidden="true"></i>
-            <span class="d-none d-sm-inline">collection</span></a></li>
+            <span class="d-none d-md-inline">collection</span></a></li>
           <li class="nav-item"><a href="#" class="text-uppercase text-gray hover-white">
             <i class="fas fa-shopping-cart"></i>
-            <span class="d-none d-sm-inline">purchase list</span></a></li>
+            <span class="d-none d-md-inline">purchase list</span></a></li>
           <li id="post-add" class="nav-item"><a href="#" class="btn btn-cabaret text-uppercase">post an add</a></li>
         </ul>
         <div class="right-btns">
@@ -50,10 +51,10 @@
       </nav>
     </header>
     <main class="main">
-      <section class="search-productos d-flex flex-column align-items-center bg-cabaret pt-5 px-2">
-        <h1 class="text-uppercase text-white">debari shop</h1>
-        <p class="text-white">Find the best productos</p>
-        <div class="search">
+      <section class="search-products d-flex flex-column align-items-center bg-cabaret pt-5 px-2">	
+        <h1 class="title text-uppercase text-white">debari shop</h1>	
+        <p class="text-white">Find the best products</p>	
+        <div class="search w-100">
           <form class="d-flex flex-column flex-md-row search-form">
             <div class="form-group">
               <div class="dropdown">
@@ -72,7 +73,7 @@
             </div>
             <div class="form-group d-flex flex-column flex-md-row">
               <input type="text" class="form-control bg-light text-gray mr-3" id="location-input" aria-describedby="location" placeholder="Location">        
-              <button type="submit" class="submit btn btn-dark">Search</button>
+              <a type="submit" href="search-results.html" class="search-btn submit btn btn-dark">Search</a>
             </div>
           </form>
         </div>
@@ -258,9 +259,9 @@
 
             <div class="result col-md-9 col-lg-10">
               <div class="row">
-                <p class="px-2">138 results of "Flat" Search at San Francisco in Category Real State</p>
+                <p class="px-2 result-count text-gray"><span>138</span> results of <span>"Cat"</span> Search at San Francisco in <span>Category Real State</span></p>
               </div>
-              <div class="row p-2 border-top border-bottom">
+              <div class="product-details row p-2 border-top border-bottom">
                 <div class="col-12">
                   <div class="row">
                     <div class="col-md-5 col-lg-4 bg-success product-img p-0">
@@ -272,7 +273,7 @@
                     </div>
                     <div class="col-md-7 col-lg-8">
                       <div class="title-container mt-1">
-                        <h5 class="text-gray">Some Especial Product</h5>
+                        <h5 class="text-shaft">Some Especial Product</h5>
                         <a href="#" class="btn btn-outline-dark">+</a>
                       </div>
                       <h6 class="text-cabaret">Brand #1</h6>
@@ -290,7 +291,7 @@
                   </div>
                 </div>
               </div>
-              <div class="row py-2 border-top border-bottom">
+              <div class="product-details row py-2 border-top border-bottom">
                 <div class="col-12">
                   <div class="row border-top border-bottom py-3 pl-2 bg-white">
                     <div class="col-md-5 col-lg-4 bg-success product-img p-0">
@@ -302,7 +303,7 @@
                     </div>
                     <div class="col-md-7 col-lg-8">
                       <div class="title-container mt-1">
-                        <h5 class="text-gray">Some Especial Product</h5>
+                        <h5 class="text-shaft">Some Especial Product</h5>
                         <a href="#" class="btn btn-outline-dark">+</a>
                       </div>
                       <h6 class="text-cabaret">Brand #1</h6>

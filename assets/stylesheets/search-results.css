@@ -2,17 +2,17 @@
   color: #888;
 }
 
-.text-dark {
+.bg-shaft {
+  background-color: #383838;
+}
+
+.text-shaft {
   color: #383838;
 }
 
 .hover-white:hover {
   color: white;
   text-decoration: none;
-}
-
-.font-weight-600 {
-  font-weight: 600;
 }
 
 .text-cabaret {
@@ -33,6 +33,18 @@
   background-color: rgb(199, 32, 57);
 }
 
+.font-hlvtic-md {
+  font-family: "HelveticaNeue-Medium", Arial, Helvetica, sans-serif;
+}
+
+.font-hlvtic-lt {
+  font-family: "HelveticaNeue-Light", Arial, Helvetica, sans-serif;
+}
+
+.font-gotham-lt {
+  font-family: gothamrounded-light, Arial, Helvetica, sans-serif;
+}
+
 .header {
   position: fixed;
   z-index: 2;
@@ -44,14 +56,29 @@
   width: 1310px;
 }
 
-.nav .nav-item {
+.header .nav .nav-item {
   padding-right: 10px;
+  font-family: 'gothamrounded-light', Arial, Helvetica, sans-serif;
 }
 
-@media (max-width: 815px) {
+.header .nav:first-child .nav-item:first-child {
+  font-family: 'HelveticaNeue-Medium', Arial, Helvetica, sans-serif;
+  font-size: 1.3rem;
+}
+
+@media (max-width: 913px) {
   #post-add {
     display: none;
   }
+}
+
+.search-products .title,
+.search-products > p {
+  font-family: 'HelveticaNeue-Medium', Arial, Helvetica, sans-serif;
+}
+
+.search-btn {
+  font-family: 'gothamrounded-light', Arial, Helvetica, sans-serif;
 }
 
 .main,
@@ -60,7 +87,7 @@
   top: 65px;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 760px) {
   .right-btns .nav-item:first-child,
   .right-btns .nav-item:nth-child(2) {
     display: none;
@@ -90,6 +117,18 @@
   flex: 2;
 }
 
+#results .parameters {
+  font-family: gothamrounded-light, sans-serif;
+}
+
+#results .product-details {
+  font-family: "HelveticaNeue-Medium", sans-serif;
+}
+
+#results .form-group h6 {
+  font-family: "HelveticaNeue-Medium", sans-serif;
+}
+
 #results .result .title-container {
   display: flex;
   justify-content: space-between;
@@ -100,6 +139,14 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+#results .result-count {
+  font-family: "HelveticaNeue-Medium", sans-serif;
+}
+
+#results .result-count > span {
+  color: #383838;
 }
 
 .result .product-img {
@@ -122,68 +169,11 @@
   margin: 0 5px;
 }
 
-/* .hot-ads, */
-/* #product-categories > div, */
 .bottom-footer,
 .top-footer {
   max-width: 1310px;
   margin: 0 auto;
 }
-
-/* .hot-ads > .carousel, */
-/* #product-categories .category .carousel {
-  margin-left: 35px;
-  margin-right: 35px;
-} */
-
-/* .hot-ads > .carousel .carousel-control-prev,
-.hot-ads > .carousel .carousel-control-next {
-  height: 30px;
-  width: 30px;
-  border-radius: 50%;
-  border: 1px solid #888;
-  top: 50%;
-} */
-
-/* .hot-ads > .carousel .carousel-control-prev,
-#product-categories .category .carousel .carousel-control-prev {
-  margin-left: -35px;
-}
-
-.hot-ads > .carousel .carousel-control-next,
-#product-categories .category .carousel .carousel-control-next {
-  margin-right: -35px;
-} */
-
-/* .product-img {
-  min-height: 300px;
-} */
-
-/* #product-categories .category .carousel .carousel-control-prev {
-  -webkit-box-shadow: 6px 1px 30px -6px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: 6px 1px 30px -6px rgba(0, 0, 0, 0.75);
-  box-shadow: 6px 1px 30px -6px rgba(0, 0, 0, 0.75);
-}
-
-#product-categories .category .carousel .carousel-control-next {
-  -webkit-box-shadow: -6px 1px 30px -6px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: -6px 1px 30px -6px rgba(0, 0, 0, 0.75);
-  box-shadow: -6px 1px 30px -6px rgba(0, 0, 0, 0.75);
-}
-
-#product-categories .category .carousel .carousel-control-prev,
-#product-categories .category .carousel .carousel-control-next {
-  width: 30px;
-} */
-
-/* .hot-ads > .carousel .carousel-control-prev > span,
-.hot-ads > .carousel .carousel-control-next > span {
-  height: auto;
-} */
-
-/* .hot-ads .product-img {
-  position: relative;
-} */
 
 .right-btns .nav-item img {
   height: 35px;
@@ -191,17 +181,11 @@
 }
 
 @media (max-width: 768px) {
-  /* .hot-ads .btn-group {
-    width: 100%;
-  } */
-
   .card-width {
     width: 100%;
   }
 }
 
-@media (min-width: 769px) {
-  /* .card-width {
-    width: 24rem;
-  } */
+.footer {	
+  font-family: "HelveticaNeue-Medium", Arial, Helvetica, sans-serif;	
 }

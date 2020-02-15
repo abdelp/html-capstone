@@ -2,7 +2,11 @@
   color: #888;
 }
 
-.text-dark {
+.bg-shaft {
+  background-color: #383838;
+}
+
+.text-shaft {
   color: #383838;
 }
 
@@ -66,7 +70,7 @@
   font-size: 1.3rem;
 }
 
-@media (max-width: 815px) {
+@media (max-width: 913px) {
   #post-add {
     display: none;
   }
@@ -87,7 +91,7 @@
   top: 65px;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 760px) {
   .right-btns .nav-item:first-child,
   .right-btns .nav-item:nth-child(2) {
     display: none;
@@ -156,13 +160,6 @@
   border: 1px solid #888;
   top: 50%;
 }
-
-/* @media (max-width: 768px) {
-  .hot-ads > .carousel .carousel-control-prev,
-  .hot-ads > .carousel .carousel-control-next {
-    top: 50%;
-}
-} */
 
 .hot-ads > .carousel .carousel-control-prev,
 #product-categories .category .carousel .carousel-control-prev {
