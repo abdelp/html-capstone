@@ -1,6 +1,6 @@
 # Animals Food Ecommerce
 
-> This is the Captstone Project for the Microverse CSS and HTML curriculum. The objective of this project is to create a website using the design idea provided here with whatever content you desire.
+> This is the Captstone Project for the Microverse CSS and HTML curriculum. The objective of this project is to create a website using the design idea provided [here](https://www.behance.net/gallery/24796463/ZATTIX) with whatever content you desire.
 
 ![screenshot](./app_screenshot.png)
 
