@@ -125,6 +125,10 @@
   font-family: "HelveticaNeue-Medium", sans-serif;
 }
 
+#results .product-details .product-desc {
+  color: #888;
+}
+
 #results .form-group h6 {
   font-family: "HelveticaNeue-Medium", sans-serif;
 }
