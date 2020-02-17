@@ -20,7 +20,8 @@
   border-right: 2px solid #383838;
 }
 
-.hover-white:hover {
+.hover-white:hover,
+.btn-shaft:hover {
   color: white;
   text-decoration: none;
 }
