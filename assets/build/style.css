@@ -83,7 +83,7 @@
   font-size: 1.3rem;
 }
 
-@media (max-width: 913px) {
+@media (max-width: 1024px) {
   #post-add {
     display: none;
   }
@@ -240,6 +240,16 @@
 .category > h5 {
   font-family: 'HelveticaNeue-Medium', Arial, Helvetica, sans-serif;
   color: #383838;
+}
+
+.category .lg-visible {
+  display: none;
+}
+
+@media (min-width: 1024px) {
+  .category .lg-visible {
+    display: flex;
+  }
 }
 
 #product-categories .category > h5 > span {
