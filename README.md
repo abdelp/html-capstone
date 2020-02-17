@@ -9,6 +9,10 @@
 - HTML5, CSS.
 - Bootstrap 4.4.1
 
+# Video Presentation
+
+[Presentation Link](https://www.loom.com/share/acb2ce1acf9443c6bc4b707f2a559828)
+
 ## Live Demo
 
 [Live Demo Link](https://rawcdn.githack.com/abdelp/html-capstone/548b0d0cb531de0f722db6a8d168b236ae4b7195/index.html)
