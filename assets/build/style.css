@@ -154,6 +154,7 @@
 .hot-ads .product-img img {
   width: 100%;
   height: 100%;
+  -o-object-fit: cover;
   object-fit: cover;
   max-height: 280px;
 }
@@ -200,14 +201,10 @@
 }
 
 #product-categories .category .carousel .carousel-control-prev {
-  -webkit-box-shadow: 6px 1px 30px -6px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: 6px 1px 30px -6px rgba(0, 0, 0, 0.75);
   box-shadow: 6px 1px 30px -6px rgba(0, 0, 0, 0.75);
 }
 
 #product-categories .category .carousel .carousel-control-next {
-  -webkit-box-shadow: -6px 1px 30px -6px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: -6px 1px 30px -6px rgba(0, 0, 0, 0.75);
   box-shadow: -6px 1px 30px -6px rgba(0, 0, 0, 0.75);
 }
 
