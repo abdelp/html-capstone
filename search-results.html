@@ -1,0 +1,432 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/stylesheets/search-results.css">
+    <link rel="stylesheet" type="text/css" href="assets/stylesheets/fonts.css">
+    <script src="https://kit.fontawesome.com/7692afb188.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://kit-free.fontawesome.com/releases/latest/css/free.min.css" media="all">
+    <title>Debari Shop</title>
+  </head>
+  <body>
+    <header class="header bg-shaft d-flex justify-content-center py-3 pl-3">
+      <nav class="d-flex align-items-center justify-content-between">
+        <ul class="nav align-items-center">
+          <li class="nav-item pr-5 text-uppercase text-white">debari shop</li>
+          <li class="nav-item"><a href="index.html" class="text-uppercase text-gray hover-white">
+            <i class="fas fa-home" aria-hidden="true"></i>
+            <span class="d-none d-md-inline">home</span></a></li>
+          <li class="nav-item"><a href="#" class="text-uppercase text-gray hover-white">
+            <i class="fas fa-th-large" aria-hidden="true"></i>
+            <span class="d-none d-md-inline">collection</span></a></li>
+          <li class="nav-item"><a href="#" class="text-uppercase text-gray hover-white">
+            <i class="fas fa-shopping-cart"></i>
+            <span class="d-none d-md-inline">purchase list</span></a></li>
+          <li id="post-add" class="nav-item"><a href="#" class="btn btn-cabaret text-uppercase">post an add</a></li>
+        </ul>
+        <div class="right-btns">
+         <ul class="nav align-items-center">
+            <li class="nav-item p-2">
+              <a href="#" class="text-gray"><i class="fas fa-envelope text-gray"></i></a>
+            </li>
+            <li class="nav-item"><a href="#" class="text-white">
+              Abdel P.</a>
+            </li>
+            <li class="nav-item">
+              <a href="#">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQaR-BOYDH1An93UF3eqrMUYWhaeDMFXnouvCWqkkbJrqi2wIC7" alt="profile-img">
+              </a>
+            </li>
+          </ul>
+        </div> 
+      </nav>
+    </header>
+    <main class="main">
+      <section class="search-products d-flex flex-column align-items-center bg-cabaret pt-5 px-2">	
+        <h1 class="title text-uppercase text-white">debari shop</h1>	
+        <p class="text-white">Feed your animals with the best</p>	
+        <div class="search w-100">
+          <form class="d-flex flex-column flex-md-row search-form">
+            <div class="form-group">
+              <div class="dropdown">
+                <button class="btn btn-light dropdown-toggle text-gray w-100" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  All categories
+                </button>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="#">Action</a>
+                  <a class="dropdown-item" href="#">Another action</a>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+              </div>
+            </div>
+            <div class="form-group">
+              <input type="text" class="form-control bg-light text-gray" id="product-text" placeholder="What do you search for?">
+            </div>
+            <div class="form-group d-flex flex-column flex-md-row">
+              <input type="text" class="form-control bg-light text-gray mr-3" id="location-input" placeholder="Location">        
+              <a href="search-results.html" class="search-btn submit btn btn-dark">Search</a>
+            </div>
+          </form>
+        </div>
+      </section>
+
+      <section id="results" class="pt-3 pb-5 px-2 bg-light border">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="parameters col-md-3 col-lg-2 border-right">
+              <p class="d-block d-sm-none">
+                <a class="btn w-100 btn-cabaret" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                  Search Options
+                </a>
+              </p>
+
+              <div class="collapse d-sm-none" id="collapseExample">
+                <form class="d-flex flex-column">
+
+                  <div class="d-flex flex-column flex-md-row">
+                    <div class="form-check form-check-inline">
+                      <input class="form-check-input" type="checkbox" value="option1">
+                      <label class="form-check-label">New</label>
+                    </div>
+  
+                    <div class="form-check form-check-inline">
+                      <input class="form-check-input" type="checkbox" value="option2">
+                      <label class="form-check-label">Used</label>
+                    </div>
+                  </div>
+                  <div class="form-group mt-2">
+                    <h6 class="border-bottom">Age</h6>
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" value="">
+                      <label class="form-check-label">
+                        2-6 months
+                      </label>
+                    </div>
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" value="">
+                      <label class="form-check-label">
+                        1 year
+                      </label>
+                    </div>
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" value="">
+                      <label class="form-check-label">
+                        Adult
+                      </label>
+                    </div>
+                  </div>
+  
+                  <div class="form-group">
+                    <h6 class="border-bottom">For</h6>
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" value="">
+                      <label class="form-check-label">
+                        Cats
+                      </label>
+                    </div>
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" value="">
+                      <label class="form-check-label">
+                        Dogs
+                      </label>
+                    </div>
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" value="">
+                      <label class="form-check-label">
+                        Fish
+                      </label>
+                    </div>
+                  </div>
+  
+                  <div class="form-group">
+                    <h6 class="border-bottom">Price range (U$S)</h6>
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" value="">
+                      <label class="form-check-label">
+                        1 - 10
+                      </label>
+                    </div>
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" value="">
+                      <label class="form-check-label">
+                        10 - 50
+                      </label>
+                    </div>
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" value="">
+                      <label class="form-check-label">
+                        50 - 100
+                      </label>
+                    </div>
+                  </div>
+                </form>
+              </div>
+
+              <form class="d-none d-sm-flex flex-row flex-md-column justify-content-between flex-wrap">
+
+                <div class="d-flex flex-column flex-md-row">
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="checkbox" value="option1">
+                    <label class="form-check-label">New</label>
+                  </div>
+
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="checkbox" value="option2">
+                    <label class="form-check-label">Used</label>
+                  </div>
+                </div>
+
+                
+                <div class="form-group mt-0 mt-md-2">
+                  <h6 class="border-bottom">Age</h6>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="">
+                    <label class="form-check-label">
+                      2 - 6 months
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="">
+                    <label class="form-check-label">
+                      1 year
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="">
+                    <label class="form-check-label">
+                      Adult
+                    </label>
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <h6 class="border-bottom">For</h6>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="">
+                    <label class="form-check-label">
+                      Cats
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="">
+                    <label class="form-check-label">
+                      Dogs
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="">
+                    <label class="form-check-label">
+                      Fish
+                    </label>
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <h6 class="border-bottom">Price range (U$S)</h6>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="">
+                    <label class="form-check-label">
+                      1 - 10
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="">
+                    <label class="form-check-label">
+                      10 - 50
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="">
+                    <label class="form-check-label">
+                      50 - 100
+                    </label>
+                  </div>
+                </div>
+              </form>
+              
+            </div>
+
+            <div class="result col-md-9 col-lg-10 border-right">
+              <div class="row">
+                <p class="px-2 result-count text-gray"><span>138</span> results of <span>"Cat"</span> Search at San Francisco in <span>Category Real State</span></p>
+              </div>
+              <div class="product-details row p-2 border-top border-bottom">
+                <div class="col-12">
+                  <div class="row">
+                    <div class="col-md-5 col-lg-4 bg-success product-img p-0">
+                      <img src="assets/images/cat-4.jpg" alt="special-food">
+                      <div>
+                        <a href="#" class="btn btn-dark text-cabaret"><i class="fas fa-chevron-left"></i></a>
+                        <a href="#" class="btn btn-dark text-cabaret"><i class="fas fa-chevron-right"></i></a>
+                      </div>
+                    </div>
+                    <div class="col-md-7 col-lg-8">
+                      <div class="title-container mt-1">
+                        <h5 class="text-shaft">Product #1</h5>
+                        <a href="#" class="btn btn-outline-dark">+</a>
+                      </div>
+                      <h6 class="text-cabaret">Brand #1</h6>
+                      <p class="product-desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                      <p class="text-gray"><span class="text-shaft">Location:</span> 21 Start Street, San Francisco US</p>
+
+                      <div class="product-footer">
+                        <div class="text-shaft">
+                          <span class="text-gray">Feb. 2020</span>
+                        </div>
+
+                        <button type="button" class="btn btn-cabaret">$150</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="product-details row py-2 border-top border-bottom">
+                <div class="col-12">
+                  <div class="row border-top border-bottom py-3 pl-2 bg-white">
+                    <div class="col-md-5 col-lg-4 bg-success product-img p-0">
+                      <img src="assets/images/cat-5.jpg" alt="special-food">
+                      <div>
+                        <a href="#" class="btn btn-dark text-cabaret"><i class="fas fa-chevron-left"></i></a>
+                        <a href="#" class="btn btn-dark text-cabaret"><i class="fas fa-chevron-right"></i></a>
+                      </div>
+                    </div>
+                    <div class="col-md-7 col-lg-8">
+                      <div class="title-container mt-1">
+                        <h5 class="text-shaft">Product #2</h5>
+                        <a href="#" class="btn btn-outline-dark">+</a>
+                      </div>
+                      <h6 class="text-cabaret">Brand #2</h6>
+                      <p class="product-desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                      <p class="text-gray"><span class="text-shaft">Location:</span> 21 Start Street, San Francisco US</p>
+
+                      <div class="product-footer">
+                        <div>
+                          <span class="text-gray">Feb. 2020</span>
+                        </div>
+                        
+                        <div class="btns-container">
+                          <button type="button" class="btn btn-cabaret">Give a Call</button>
+                          <button type="button" class="btn btn-cabaret">$150</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="product-details row p-2 border-top border-bottom">
+                <div class="col-12">
+                  <div class="row">
+                    <div class="col-md-5 col-lg-4 bg-success product-img p-0">
+                      <img src="assets/images/cat-6.jpg" alt="special-food">
+                      <div>
+                        <a href="#" class="btn btn-dark text-cabaret"><i class="fas fa-chevron-left"></i></a>
+                        <a href="#" class="btn btn-dark text-cabaret"><i class="fas fa-chevron-right"></i></a>
+                      </div>
+                    </div>
+                    <div class="col-md-7 col-lg-8">
+                      <div class="title-container mt-1">
+                        <h5 class="text-shaft">Product</h5>
+                        <a href="#" class="btn btn-outline-dark">+</a>
+                      </div>
+                      <h6 class="text-cabaret">Brand #3</h6>
+                      <p class="product-desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                      <p class="text-gray"><span class="text-shaft">Location:</span> 21 Start Street, San Francisco US</p>
+
+                      <div class="product-footer">
+                        <div class="text-shaft">
+                          <span class="text-gray">Feb. 2020</span>
+                        </div>
+
+                        <button type="button" class="btn btn-cabaret">$150</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row justify-content-center mt-2">
+                <nav aria-label="Page navigation example">
+                  <ul class="pagination justify-content-end">
+                    <li class="page-item"><a class="page-link bg-cabaret text-white" href="#">1</a></li>
+                    <li class="page-item"><a class="page-link text-gray" href="#">2</a></li>
+                    <li class="page-item"><a class="page-link text-gray" href="#">3</a></li>
+                    <li class="page-item"><a class="page-link text-gray" href="#">4</a></li>
+                    <li class="page-item"><a class="page-link text-gray" href="#">5</a></li>
+                  </ul>
+                </nav>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </main>
+
+    <footer class="footer p-3">
+      <div class="top-footer container-fluid border-bottom pb-2">
+        <div class="row">
+          <div class="col-md">
+            <h5 class="text-uppercase text-gray text-justify">debari shop</h5>
+            <p class="text-gray">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of
+            </p>
+          </div>
+          <div class="col-md">
+            <h6 class="text-uppercase text-cabaret border-bottom border-cabaret pb-2">categories</h6>
+            <div class="categories-list d-flex">
+              <ul class="nav flex-column w-50">
+                <li class="nav-item"><a href="#" class="text-gray">Cats</a></li>
+                <li class="nav-item"><a href="#" class="text-gray">Dogs</a></li>
+                <li class="nav-item"><a href="#" class="text-gray">Cows</a></li>
+              </ul>
+              <ul class="nav flex-column w-50">
+                <li class="nav-item"><a href="#" class="text-gray">Cats</a></li>
+                <li class="nav-item"><a href="#" class="text-gray">Dogs</a></li>
+                <li class="nav-item"><a href="#" class="text-gray">Cows</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md">
+            <h6 class="text-uppercase text-cabaret border-bottom border-cabaret pb-2">navigation</h6>
+            <div class="categories-list d-flex">
+              <ul class="nav flex-column w-50">
+                <li class="nav-item text-capitalize"><a href="#" class="text-gray">home</a></li>
+                <li class="nav-item text-capitalize"><a href="#" class="text-gray">sign in</a></li>
+                <li class="nav-item text-capitalize"><a href="#" class="text-gray">sign up</a></li>
+                <li class="nav-item text-capitalize"><a href="#" class="text-gray">terms & conditions</a></li>
+                <li class="nav-item text-uppercase"><a href="#" class="text-gray">faq</a></li>
+                <li class="nav-item text-capitalize"><a href="#" class="text-gray">help</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="bottom-footer d-flex flex-wrap justify-content-center justify-content-sm-between mt-3">
+        <div class="text-gray"><small>&copy; Copyright 2020, Design by Mohammed Awad, Code by Abdel Pérez</small></div>
+        <ul class="nav d-flex justify-content-lg-end">
+          <li class="nav-item mx-2">
+            <a href="#" class="text-gray"><i class="fab fa-facebook-square"></i></a>
+          </li>
+          <li class="nav-item mx-2">
+            <a href="#" class="text-gray"><i class="fab fa-twitter"></i></a>
+          </li>
+          <li class="nav-item mx-2">
+            <a href="#" class="text-gray"><i class="fab fa-instagram"></i></a>
+          </li>
+          <li class="nav-item mx-2">
+            <a href="#" class="text-gray"><i class="fab fa-google-plus-g"></i></a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+    
+    
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  
+    <script>
+
+    </script>
+  </body>
+</html>

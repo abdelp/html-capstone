@@ -1,0 +1,589 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/build/style.css">
+    <link rel="stylesheet" type="text/css" href="assets/stylesheets/fonts.css">
+    <script src="https://kit.fontawesome.com/7692afb188.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://kit-free.fontawesome.com/releases/latest/css/free.min.css" media="all">
+    <title>Debari Shop</title>
+  </head>
+  <body>
+    <header class="header bg-shaft d-flex justify-content-center py-3 pl-3">
+      <nav class="header-nav">
+        <ul class="nav align-items-center">
+          <li class="nav-item pr-5 text-uppercase text-white">debari shop</li>
+          <li class="nav-item"><a href="#" class="text-uppercase text-gray hover-white">
+            <i class="fas fa-home" aria-hidden="true"></i>
+            <span class="d-none d-md-inline">home</span></a></li>
+          <li class="nav-item"><a href="#" class="text-uppercase text-gray hover-white">
+            <i class="fas fa-th-large" aria-hidden="true"></i>
+            <span class="d-none d-md-inline">collection</span></a></li>
+          <li class="nav-item"><a href="#" class="text-uppercase text-gray hover-white">
+            <i class="fas fa-shopping-cart"></i>
+            <span class="d-none d-md-inline">purchase list</span></a></li>
+          <li id="post-add" class="nav-item"><a href="#" class="btn btn-cabaret text-uppercase">post an add</a></li>
+        </ul>
+        <div class="right-btns">
+         <ul class="nav align-items-center">
+            <li class="nav-item p-2">
+              <a href="#" class="text-gray"><i class="fas fa-envelope text-gray"></i></a>
+            </li>
+            <li class="nav-item"><a href="#" class="text-white">
+              Abdel P.</a>
+            </li>
+            <li class="nav-item">
+              <a href="#">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQaR-BOYDH1An93UF3eqrMUYWhaeDMFXnouvCWqkkbJrqi2wIC7" alt="profile-img">
+              </a>
+            </li>
+          </ul>
+        </div> 
+      </nav>
+    </header>
+    <main class="main">
+      <section class="search-products bg-cabaret pt-5 px-2">
+        <h1 class="title text-uppercase text-white">debari shop</h1>
+        <p class="text-white">Feed your animals with the best</p>
+        <div class="search w-100">
+          <form class="d-flex flex-column flex-md-row search-form">
+            <div class="form-group">
+              <div class="dropdown">
+                <button class="btn btn-light dropdown-toggle text-gray w-100" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  All categories
+                </button>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="#">Action</a>
+                  <a class="dropdown-item" href="#">Another action</a>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+              </div>
+            </div>
+            <div class="form-group">
+              <input type="text" class="form-control bg-light text-gray" id="product-text" placeholder="What do you search for?">
+            </div>
+            <div class="form-group d-flex flex-column flex-md-row">
+              <input type="text" class="form-control bg-light text-gray mr-3" id="location-input" placeholder="Location">        
+              <a href="search-results.html" class="search-btn submit btn btn-shaft hover-shaft">Search</a>
+            </div>
+          </form>
+        </div>
+      </section>
+      <section class="hot-ads pt-3 pb-5 px-2">
+        <h2 class="text-uppercase text-gray h5">hot ads</h2>
+        <div id="carousel-hot-ads" class="carousel slide mt-4" data-interval="false">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="container-fluid">
+                <div class="row">
+                  <div class="col-md-6 col-lg-4 product-img p-0">
+                    <img src="assets/images/special-food.jpg" alt="special-food">
+                    <div>
+                      <a href="#" class="btn btn-shaft hover-shaft text-cabaret"><i class="fas fa-chevron-left"></i></a>
+                      <a href="#" class="btn btn-shaft hover-shaft text-cabaret"><i class="fas fa-chevron-right"></i></a>
+                    </div>
+                  </div>
+                  <div class="hot-ad-detail col-md-6 col-lg-8 mt-2">
+                    <h3 class="text-cabaret">Me-O</h3>
+                    <p class="text-gray font-hlvtic-md">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                    <p class="text-gray font-gotham-lt"><span class="text-gray font-hlvtic-md">By:</span> Abdel Pérez</p>
+                    <p class="text-gray font-gotham-lt"><span class="text-gray font-hlvtic-md ">Location:</span> Paraguay</p>
+                    <div class="btn-group" role="group" aria-label="Basic example">
+                      <button type="button" class="btn btn-cabaret border-right-dark font-hlvtic-md">$5</button>
+                      <button type="button" class="btn btn-cabaret font-hlvtic-md">
+                        <i class="fas fa-shopping-cart"></i>
+                        Purchase details</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="container-fluid">
+                <div class="row">
+                  <div class="col-md-6 col-lg-4 product-img p-0">
+                    <img src="assets/images/special-product2.png" alt="special-food">
+                    <div>
+                      <a href="#" class="btn btn-shaft hover-shaft text-cabaret"><i class="fas fa-chevron-left"></i></a>
+                      <a href="#" class="btn btn-shaft hover-shaft text-cabaret"><i class="fas fa-chevron-right"></i></a>
+                    </div>
+                  </div>
+                  <div class="hot-ad-detail col-md-6 col-lg-8 mt-2">
+                    <h3 class="text-cabaret">Ziwi</h3>
+                    <p class="text-gray font-hlvtic-md">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                    <p class="text-secondary font-hlvtic-lt"><span class="text-gray font-hlvtic-md">By:</span> Abdel Pérez</p>
+                    <p class="text-secondary font-hlvtic-lt"><span class="text-gray font-hlvtic-md ">Location:</span> Paraguay</p>
+                    <div class="btn-group" role="group" aria-label="Basic example">
+                      <button type="button" class="btn btn-cabaret border-right-dark font-hlvtic-md">$5</button>
+                      <button type="button" class="btn btn-cabaret font-hlvtic-md">
+                        <i class="fas fa-shopping-cart"></i>
+                        Purchase details</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carousel-hot-ads" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true">
+              <i class="fas fa-chevron-left text-cabaret"></i>
+            </span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carousel-hot-ads" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true">
+              <i class="fas fa-chevron-right text-cabaret"></i>
+            </span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </section>
+      <section id="product-categories" class="border-top border-bottom bg-light p-3">
+        <div>
+          <div class="category">
+            <h5 class="border-bottom text-gray p-3">
+              <i class="fas fa-cat text-gray"></i>
+              Cats <span class="text-gray">(All ages)</span></h5>
+            <div id="carousel-cat" class="carousel slide mt-4" data-interval="false">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class="d-flex">
+                    <div class="card mr-0 mr-sm-5">
+                      <img class="card-img-top" src="assets/images/cat-1.jpg" alt="Card image cap">
+                      <div class="card-body">
+                        <h6 class="card-title">Product</h6>
+                        <p class="prod-stat text-cabaret">New</p>
+                        <p class="card-text"><span class="from text-gray">From:</span> San Francisco</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                          <a href="#" class="btn btn-outline-secondary">+</a>
+                          <span class="text-cabaret font-weight-bold">$200</span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card d-none d-sm-flex">
+                      <img class="card-img-top" src="assets/images/cat-2.jpg" alt="Card image cap">
+                      <div class="card-body">
+                        <h6 class="card-title">Product</h6>
+                        <p class="prod-stat text-cabaret">New</p>
+                        <p class="card-text"><span class="from text-gray">From:</span> San Francisco</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                          <a href="#" class="btn btn-outline-secondary">+</a>
+                          <span class="text-cabaret font-weight-bold">$200</span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card lg-visible ml-5">
+                      <img class="card-img-top" src="assets/images/cat-3.jpg" alt="Card image cap">
+                      <div class="card-body">
+                        <h6 class="card-title">Product</h6>
+                        <p class="prod-stat text-cabaret">New</p>
+                        <p class="card-text"><span class="from text-gray">From:</span> San Francisco</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                          <a href="#" class="btn btn-outline-secondary">+</a>
+                          <span class="text-cabaret font-weight-bold">$200</span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card lg-visible ml-5">
+                      <img class="card-img-top" src="assets/images/cat-3.jpg" alt="Card image cap">
+                      <div class="card-body">
+                        <h6 class="card-title">Product</h6>
+                        <p class="prod-stat text-cabaret">New</p>
+                        <p class="card-text"><span class="from text-gray">From:</span> San Francisco</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                          <a href="#" class="btn btn-outline-secondary">+</a>
+                          <span class="text-cabaret font-weight-bold">$200</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="d-flex">
+                    <div class="card mr-0 mr-sm-5">
+                      <img class="card-img-top" src="assets/images/cat-1.jpg" alt="Card image cap">
+                      <div class="card-body">
+                        <h6 class="card-title">Product</h6>
+                        <p class="prod-stat text-cabaret">New</p>
+                        <p class="card-text"><span class="from text-gray">From:</span> San Francisco</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                          <a href="#" class="btn btn-outline-secondary">+</a>
+                          <span class="text-cabaret font-weight-bold">$200</span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card d-none d-sm-flex">
+                      <img class="card-img-top" src="assets/images/cat-2.jpg" alt="Card image cap">
+                      <div class="card-body">
+                        <h6 class="card-title">Product</h6>
+                        <p class="prod-stat text-cabaret">New</p>
+                        <p class="card-text"><span class="from text-gray">From:</span> San Francisco</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                          <a href="#" class="btn btn-outline-secondary">+</a>
+                          <span class="text-cabaret font-weight-bold">$200</span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card d-none d-lg-flex ml-5">
+                      <img class="card-img-top" src="assets/images/cat-3.jpg" alt="Card image cap">
+                      <div class="card-body">
+                        <h6 class="card-title">Product</h6>
+                        <p class="prod-stat text-cabaret">New</p>
+                        <p class="card-text"><span class="from text-gray">From:</span> San Francisco</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                          <a href="#" class="btn btn-outline-secondary">+</a>
+                          <span class="text-cabaret font-weight-bold">$200</span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card d-none d-lg-flex ml-5">
+                      <img class="card-img-top" src="assets/images/cat-3.jpg" alt="Card image cap">
+                      <div class="card-body">
+                        <h6 class="card-title">Product</h6>
+                        <p class="prod-stat text-cabaret">New</p>
+                        <p class="card-text"><span class="from text-gray">From:</span> San Francisco</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                          <a href="#" class="btn btn-outline-secondary">+</a>
+                          <span class="text-cabaret font-weight-bold">$200</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <a class="carousel-control-prev" href="#carousel-cat" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true">
+                  <i class="fas fa-chevron-left text-shaft"></i>
+                </span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#carousel-cat" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true">
+                  <i class="fas fa-chevron-right text-shaft"></i>
+                </span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+          </div>
+          <div class="category">
+            <h5 class="border-bottom text-gray p-3">
+              <i class="fas fa-dog text-gray"></i>
+              Dogs <span class="text-gray">(All ages)</span></h5>
+            <div id="carousel-dog" class="carousel slide mt-4" data-interval="false">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class="d-flex justify-content-between">
+                    <div class="card mr-0 mr-sm-5">
+                      <img class="card-img-top" src="assets/images/dog-1.jpg" alt="Card image cap">
+                      <div class="card-body">
+                        <h6 class="card-title">Product</h6>
+                        <p class="prod-stat text-cabaret">New</p>
+                        <p class="card-text"><span class="from text-gray">From:</span> San Francisco</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                          <a href="#" class="btn btn-outline-secondary">+</a>
+                          <span class="text-cabaret font-weight-bold">$200</span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card d-none d-sm-flex">
+                      <img class="card-img-top" src="assets/images/dog-2.jpg" alt="Card image cap">
+                      <div class="card-body">
+                        <h6 class="card-title">Product</h6>
+                        <p class="prod-stat text-cabaret">New</p>
+                        <p class="card-text"><span class="from text-gray">From:</span> San Francisco</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                          <a href="#" class="btn btn-outline-secondary">+</a>
+                          <span class="text-cabaret font-weight-bold">$200</span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card d-none d-lg-flex ml-5">
+                      <img class="card-img-top" src="assets/images/dog-3.jpg" alt="Card image cap">
+                      <div class="card-body">
+                        <h6 class="card-title">Product</h6>
+                        <p class="prod-stat text-cabaret">New</p>
+                        <p class="card-text"><span class="from text-gray">From:</span> San Francisco</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                          <a href="#" class="btn btn-outline-secondary">+</a>
+                          <span class="text-cabaret font-weight-bold">$200</span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card d-none d-lg-flex ml-5">
+                      <img class="card-img-top" src="assets/images/dog-3.jpg" alt="Card image cap">
+                      <div class="card-body">
+                        <h6 class="card-title">Product</h6>
+                        <p class="prod-stat text-cabaret">New</p>
+                        <p class="card-text"><span class="from text-gray">From:</span> San Francisco</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                          <a href="#" class="btn btn-outline-secondary">+</a>
+                          <span class="text-cabaret font-weight-bold">$200</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>              
+                <div class="carousel-item">
+                  <div class="d-flex justify-content-between">
+                    <div class="card mr-0 mr-sm-5">
+                      <img class="card-img-top" src="assets/images/dog-1.jpg" alt="Card image cap">
+                      <div class="card-body">
+                        <h6 class="card-title">Product</h6>
+                        <p class="prod-stat text-cabaret">New</p>
+                        <p class="card-text"><span class="from text-gray">From:</span> San Francisco</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                          <a href="#" class="btn btn-outline-secondary">+</a>
+                          <span class="text-cabaret font-weight-bold">$200</span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card d-none d-sm-flex">
+                      <img class="card-img-top" src="assets/images/dog-2.jpg" alt="Card image cap">
+                      <div class="card-body">
+                        <h6 class="card-title">Product</h6>
+                        <p class="prod-stat text-cabaret">New</p>
+                        <p class="card-text"><span class="from text-gray">From:</span> San Francisco</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                          <a href="#" class="btn btn-outline-secondary">+</a>
+                          <span class="text-cabaret font-weight-bold">$200</span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card d-none d-lg-flex ml-5">
+                      <img class="card-img-top" src="assets/images/dog-3.jpg" alt="Card image cap">
+                      <div class="card-body">
+                        <h6 class="card-title">Product</h6>
+                        <p class="prod-stat text-cabaret">New</p>
+                        <p class="card-text"><span class="from text-gray">From:</span> San Francisco</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                          <a href="#" class="btn btn-outline-secondary">+</a>
+                          <span class="text-cabaret font-weight-bold">$200</span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card d-none d-lg-flex ml-5">
+                      <img class="card-img-top" src="assets/images/dog-3.jpg" alt="Card image cap">
+                      <div class="card-body">
+                        <h6 class="card-title">Product</h6>
+                        <p class="prod-stat text-cabaret">New</p>
+                        <p class="card-text"><span class="from text-gray">From:</span> San Francisco</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                          <a href="#" class="btn btn-outline-secondary">+</a>
+                          <span class="text-cabaret font-weight-bold">$200</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>              
+              </div>
+              <a class="carousel-control-prev" href="#carousel-dog" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true">
+                  <i class="fas fa-chevron-left text-shaft"></i>
+                </span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#carousel-dog" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true">
+                  <i class="fas fa-chevron-right text-shaft"></i>
+                </span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+          </div>
+          <div class="category">
+            <h5 class="border-bottom p-3 text-capitalize">
+              <i class="fas fa-fish text-gray"></i>
+              fish</h5>
+            <div id="carousel-fish" class="carousel slide mt-4" data-interval="false">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class="d-flex justify-content-between">
+                    <div class="card mr-0 mr-sm-5">
+                      <img class="card-img-top" src="assets/images/fish-1.jpg" alt="Card image cap">
+                      <div class="card-body">
+                        <h6 class="card-title">Product</h6>
+                        <p class="prod-stat text-cabaret">New</p>
+                        <p class="card-text"><span class="from text-gray">From:</span> San Francisco</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                          <a href="#" class="btn btn-outline-secondary">+</a>
+                          <span class="text-cabaret font-weight-bold">$200</span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card d-none d-sm-flex">
+                      <img class="card-img-top" src="assets/images/fish-2.jpg" alt="Card image cap">
+                      <div class="card-body">
+                        <h6 class="card-title">Product</h6>
+                        <p class="prod-stat text-cabaret">New</p>
+                        <p class="card-text"><span class="from text-gray">From:</span> San Francisco</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                          <a href="#" class="btn btn-outline-secondary">+</a>
+                          <span class="text-cabaret font-weight-bold">$200</span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card d-none d-lg-flex ml-5">
+                      <img class="card-img-top" src="assets/images/fish-3.jpg" alt="Card image cap">
+                      <div class="card-body">
+                        <h6 class="card-title">Product</h6>
+                        <p class="prod-stat text-cabaret">New</p>
+                        <p class="card-text"><span class="from text-gray">From:</span> San Francisco</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                          <a href="#" class="btn btn-outline-secondary">+</a>
+                          <span class="text-cabaret font-weight-bold">$200</span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card d-none d-lg-flex ml-5">
+                      <img class="card-img-top" src="assets/images/fish-4.jpg" alt="Card image cap">
+                      <div class="card-body">
+                        <h6 class="card-title">Product</h6>
+                        <p class="prod-stat text-cabaret">New</p>
+                        <p class="card-text"><span class="from text-gray">From:</span> San Francisco</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                          <a href="#" class="btn btn-outline-secondary">+</a>
+                          <span class="text-cabaret font-weight-bold">$200</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="d-flex justify-content-between">
+                    <div class="card mr-0 mr-sm-5">
+                      <img class="card-img-top" src="assets/images/cat-1.jpg" alt="Card image cap">
+                      <div class="card-body">
+                        <h6 class="card-title">Product</h6>
+                        <p class="prod-stat text-cabaret">New</p>
+                        <p class="card-text"><span class="from text-gray">From:</span> San Francisco</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                          <a href="#" class="btn btn-outline-secondary">+</a>
+                          <span class="text-cabaret font-weight-bold">$200</span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card d-none d-sm-flex">
+                      <img class="card-img-top" src="assets/images/cat-2.jpg" alt="Card image cap">
+                      <div class="card-body">
+                        <h6 class="card-title">Product</h6>
+                        <p class="prod-stat text-cabaret">New</p>
+                        <p class="card-text"><span class="from text-gray">From:</span> San Francisco</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                          <a href="#" class="btn btn-outline-secondary">+</a>
+                          <span class="text-cabaret font-weight-bold">$200</span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card d-none d-lg-flex ml-5">
+                      <img class="card-img-top" src="assets/images/cat-3.jpg" alt="Card image cap">
+                      <div class="card-body">
+                        <h6 class="card-title">Product</h6>
+                        <p class="prod-stat text-cabaret">New</p>
+                        <p class="card-text"><span class="from text-gray">From:</span> San Francisco</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                          <a href="#" class="btn btn-outline-secondary">+</a>
+                          <span class="text-cabaret font-weight-bold">$200</span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card d-none d-lg-flex ml-5">
+                      <img class="card-img-top" src="assets/images/cat-3.jpg" alt="Card image cap">
+                      <div class="card-body">
+                        <h6 class="card-title">Product</h6>
+                        <p class="prod-stat text-cabaret">New</p>
+                        <p class="card-text"><span class="from text-gray">From:</span> San Francisco</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                          <a href="#" class="btn btn-outline-secondary">+</a>
+                          <span class="text-cabaret font-weight-bold">$200</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <a class="carousel-control-prev" href="#carousel-fish" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true">
+                  <i class="fas fa-chevron-left text-shaft"></i>
+                </span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#carousel-fish" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true">
+                  <i class="fas fa-chevron-right text-shaft"></i>
+                </span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer p-3">
+      <div class="top-footer container-fluid border-bottom pb-2">
+        <div class="row">
+          <div class="col-md">
+            <h5 class="text-uppercase text-gray text-justify">debari shop</h5>
+            <p class="text-gray">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of
+            </p>
+          </div>
+          <div class="col-md">
+            <h6 class="text-uppercase text-cabaret border-bottom border-danger pb-2">categories</h6>
+            <div class="categories-list d-flex">
+              <ul class="nav flex-column w-50">
+                <li class="nav-item"><a href="#" class="text-gray">Cats</a></li>
+                <li class="nav-item"><a href="#" class="text-gray">Dogs</a></li>
+                <li class="nav-item"><a href="#" class="text-gray">Fish</a></li>
+              </ul>
+              <ul class="nav flex-column w-50">
+                <li class="nav-item"><a href="#" class="text-gray">Cows</a></li>
+                <li class="nav-item"><a href="#" class="text-gray">Tortoise</a></li>
+                <li class="nav-item"><a href="#" class="text-gray">Chicken</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md">
+            <h6 class="text-uppercase text-cabaret border-bottom border-danger pb-2">navigation</h6>
+            <div class="categories-list d-flex">
+              <ul class="nav flex-column w-50">
+                <li class="nav-item text-capitalize"><a href="#" class="text-gray">home</a></li>
+                <li class="nav-item text-capitalize"><a href="#" class="text-gray">sign in</a></li>
+                <li class="nav-item text-capitalize"><a href="#" class="text-gray">sign up</a></li>
+                <li class="nav-item text-capitalize"><a href="#" class="text-gray">terms & conditions</a></li>
+                <li class="nav-item text-uppercase"><a href="#" class="text-gray">faq</a></li>
+                <li class="nav-item text-capitalize"><a href="#" class="text-gray">help</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="bottom-footer d-flex flex-wrap justify-content-center justify-content-sm-between mt-3">
+        <div class="text-gray"><small>&copy; Copyright 2020, Design by Mohammed Awad, Code by Abdel Pérez</small></div>
+        <ul class="nav d-flex justify-content-lg-end">
+          <li class="nav-item mx-2">
+            <a href="#" class="text-gray"><i class="fab fa-facebook-square"></i></a>
+          </li>
+          <li class="nav-item mx-2">
+            <a href="#" class="text-gray"><i class="fab fa-twitter"></i></a>
+          </li>
+          <li class="nav-item mx-2">
+            <a href="#" class="text-gray"><i class="fab fa-instagram"></i></a>
+          </li>
+          <li class="nav-item mx-2">
+            <a href="#" class="text-gray"><i class="fab fa-google-plus-g"></i></a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+    
+    
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  
+    <script>
+
+    </script>
+  </body>
+</html>
